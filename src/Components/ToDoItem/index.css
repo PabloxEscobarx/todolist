@@ -1,0 +1,32 @@
+.toDoItem{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+.toDoList .open {
+    border: 2px solid blue;
+}
+.toDoList .inProgress{
+    border: 2px solid yellow;
+}
+.toDoList .closed{
+    border: 2px solid red;
+}
+.toDoItem .status{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.toDoList .hidden{
+    display: none;
+}
+.changeTodosForm {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
