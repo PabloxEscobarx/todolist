@@ -1,5 +1,3 @@
-test task with using CRUD system
+run npm i 
 
-run npm i for dependencies 
-
-run npm start for start app
+run npm start

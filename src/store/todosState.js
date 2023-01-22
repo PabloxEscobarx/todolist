@@ -1,5 +1,5 @@
 import {toast} from "react-toastify";
-const defReducerState = [];
+const defReducerState = localStorage.getItem('todos') ? JSON.parse(localStorage.getItem('todos')) : [];
 const localStorageDataSave = (data) => {
     localStorage.setItem('todos', JSON.stringify(data));
 }
